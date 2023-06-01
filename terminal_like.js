@@ -19,13 +19,13 @@ const commandInput = document.querySelector('#command-input');
           output = 'Available commands:\nhelp - show this help text.\nabout - learn about this website.\nprojects - view my projects';
           break;
         case 'about':
-          output = 'This website was created by Rintaro Fujita in 2023 using HTML, CSS, and JavaScript.';
+          output = 'This website was created by Rintaro Fujita. Using HTML, CSS, and JavaScript.';
           break;
           case 'portfolio':
           window.open("#", "_blank");;
           break;
-        case 'rintarofujita':
-        window.location.href = 'photo.html'
+        case 'name':
+        window.location.href = 'example.html'
           break;
         case 'back':
         window.history.back();
